@@ -2,7 +2,7 @@
         const wordLists = {
             5: ["power","earth", "flame","solar"],
             6: ["energy", "saving","future", "wordle", "audits","latent"],
-            7: ["current", "voltage", "entropy", "synergy", "", "thermal"],
+            7: ["current", "voltage", "entropy", "synergy","thermal"],
             8: ["windmill", "building", "", "conserve", "problems", "solution", "sensors"]
         };
 
