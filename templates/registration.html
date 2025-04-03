@@ -28,7 +28,8 @@
                 document.getElementById("message").textContent = data.message;
                 if (data.message === "Registered" || data.message === "Team already exists") {
                     localStorage.setItem("teamName", teamName);
-                    window.location.href = "/game";
+                    window.location.href = window.location.origin + "/game";
+
                 }
             });
         }
